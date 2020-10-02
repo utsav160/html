@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery-3.1.1.slim.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
+    <style type="text/css">
+        #div1
+        {
+            height:25px;
+            width: 970px;
+            padding:10px 25px;
+            background:black;
+            font-family:"Times New Roman";
+            font-size: 20px;
+        }
+        .toplink
+        {
+            color:white;
+            text-decoration: none;
+        }
+        #div2
+        {
+            border-top: 5px groove white;
+            text-align: center;
+            padding: 10px; 2px;
+            background: #585858;
+            width: 120px;
+            font-size: 18px;
+        }
+        .sidelink
+        {
+            font-size: 18px;
+            color:black;
+        }
+        #div3
+        {
+           padding: 10px; 2px;
+           background: lightblue;
+           width: 850px;
+           font-size: 18px;
+        }
+    </style>  
+</head>
+<body>
+    <h1><center>Welcome To BookStore</center></h1>
+   <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header"></div>
+
+            <ul class="nav navbar-nav">
+        <li><a class="toplink" href="contextual.html">Login</a></li>
+         <li><a  class="toplink" href="button.html">Register</a></li>
+                <li><a  class="toplink" href="grid.html">Contact us</a></li>
+        
+        </ul>
+        </div>
+        </nav>
+    <br/>
+    <img src="Hydrangeas.jpg" height="350" width="1500"/>
+    <br/>
+    <table>
+    <tr>
+    <td>
+    <div id="div2">
+        Select Category
+        <br/>
+        <br/>
+        <a Class="sidelink" href="http://www.google.com">Science fiction</a>
+        <br/>
+        <a Class="sidelink" href="http://www.google.com">Satire</a>
+        <br/>
+        <a Class="sidelink" href="http://www.google.com">Drama</a>
+        <br/>
+        <a Class="sidelink" href="http://www.google.com">Action and Adventure</a>
+    </div>
+    </td>
+    <td>
+    <div id="div3">
+        <p>Independent bookstore is a retail bookstore which is independently owned. Usually, Independent stores consist of only a single actual store(although there are some multiple-store independents). They may be structured as a sole proprietorships, closely held corporations or partenership (i.e. a small number of shareholders or partners), cooperatives or non profit organisation which upheld the relation with pride. Wide ranges of books are available at the bookstore. You can choose the genre from the sidebar. Choose now the area of your interest and get reading. </p>
+    </div>
+    </td>
+    </tr>
+    </table>
+</body>
+</html>
